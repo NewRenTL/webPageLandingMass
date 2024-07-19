@@ -1,6 +1,5 @@
 
 import "./App.css";
-import Publicity from "./layouts/Publicity";
 import Sections from "./layouts/Sections";
 import Store from "./layouts/Store";
 import TopBar from "./layouts/TopBar";
