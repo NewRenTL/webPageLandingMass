@@ -14,7 +14,7 @@ const Sections = () => {
       <div className="w-full flex flex-row px-10 py-5 bg-transparent">
         <aside className="containBar w-[30%] flex flex-col bg-[#D6F8F4] rounded-lg">
           <header className="w-full m-1 px-5 py-5 rounded-lg justify-start">
-            <h2 className="text-start text-[#082EB7] text-3xl font-inter1 font-bold">
+            <h2 className="text-start  cursor-pointer text-[#082EB7] text-3xl font-inter1 font-bold">
               CATEGORÍAS
             </h2>
           </header>
@@ -22,7 +22,7 @@ const Sections = () => {
             {titleList.map((title, index) => (
               <li
                 key={index}
-                className="flex pl-5 pr-1 py-4 w-full justify-start items-center mb-1 hover:bg-gray-300 flex-grow bg-transparent"
+                className="flex pl-5 pr-1 py-4 w-full justify-start items-center mb-1 transition-all duration-200 hover:bg-gray-300 flex-grow bg-transparent cursor-pointer"
               >
                 <h2 className="font-inter1 font-medium sm:text-sm md:text-base lg:text-xl w-[90%] text-[#082EB7]">
                   {title}
@@ -51,12 +51,8 @@ const Sections = () => {
         </aside>
         <div className="imgContain w-[70%] h-auto flex flex-row px-5 rounded-lg">
           <img
-            src="/img/persona1.jpg"
-            className="flex rounded-lg h-full w-[50%] cover"
-          ></img>
-          <img
-            src="/img/persona2.png"
-            className="flex rounded-lg h-full w-[50%] cover"
+            src="/img/Trabajadores.png"
+            className="flex rounded-lg h-full w-[100%] cover"
           ></img>
         </div>
       </div>
