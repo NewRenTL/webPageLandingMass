@@ -21,7 +21,7 @@ const TopBar = () => {
           {listValuesList.map((x: string, index: number) => (
             <div
               key={index}
-              className="px-1 py-4 w-[12%] font-semibold transition-all duration-300 cursor-pointer font-inter1 flex h-full hover:bg-yellow-300 items-center justify-center text-center rounded-lg"
+              className="px-1 py-4 w-[12%] text-xl font-extrabold transition-all duration-300 cursor-pointer font-inter1 flex h-full hover:bg-yellow-300 items-center justify-center text-center rounded-lg"
             >
               {x}
             </div>
