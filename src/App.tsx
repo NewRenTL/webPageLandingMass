@@ -6,6 +6,7 @@ import Footer from "./layouts/Footer";
 
 import Home from "../src/pages/Home.jsx";
 import ContactPage from "../src/pages/ContactPage"
+import ProductsPage from '../src/pages/ProductsPage'
 //import Store from "./layouts/Store";
 import TopBar from "./layouts/TopBar";
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/home" element={<Home></Home>}></Route>
             <Route path="/second" element={<SecondPage/>}></Route>
             <Route path="/contact" element={<ContactPage/>}></Route>
+            <Route path="/productos" element={<ProductsPage/>}></Route>
             <Route path="*" element={<Home></Home>}></Route>
           </Routes>
           <Footer/>
