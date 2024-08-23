@@ -17,7 +17,9 @@ const TopBar = () => {
     { name: "Productos", route: "/productos" }, // Puedes agregar más rutas en el futuro
     { name: "Contáctame", route: "/contact" },
     { name: "Ubícame", route: "/ubicame" }, // Placeholder para futuras rutas
-    { name: "Trabaja conmigo", route: "/trabajo" }, // Placeholder para futuras rutas
+    { name: "Trabaja conmigo", route: "/trabajo" },
+    { name: "Home",route:"/home"}
+     // Placeholder para futuras rutas
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
