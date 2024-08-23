@@ -1,8 +1,6 @@
-import React from 'react'
 
-type Props = {}
 
-const FinalPreposition = (props: Props) => {
+const FinalPreposition:React.FC = () => {
   return (
     <div className='w-full flex flex-col md:flex-row bg-[#FFC100]'>
         <div className='flex flex-col w-full md:w-[50%] justify-center items-center px-12'>

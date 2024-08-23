@@ -1,8 +1,6 @@
-import React from "react";
 
-type Props = {};
 
-const ValueProposition = (props: Props) => {
+const ValueProposition:React.FC = () => {
   return (
     <div className="w-full flex flex-col md:flex-row px-2 py-5 bg-[#D6F8F4]">
       <div className="w-full md:w-[50%] flex flex-col  items-center justify-start">

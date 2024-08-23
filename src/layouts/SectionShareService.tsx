@@ -1,8 +1,6 @@
-import React from "react";
 
-type Props = {};
 
-const SectionShareService = (props: Props) => {
+const SectionShareService:React.FC = () => {
   return (
     <div className="w-full flex flex-col bg-[#D6F8F6] items-center justify-center px-6">
       <div className="w-[90%] flex flex-col my-5  bg-slate-100 rounded-full py-5 px-10 sm:px-40">
