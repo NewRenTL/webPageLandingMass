@@ -3,13 +3,13 @@
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#FFFFFF] px-2 py-12 flex flex-row">
-        <div className="window-1 w-[33%] px-10 flex flex-col">
+      <div className="w-full bg-[#FFFFFF] px-2 py-12 flex flex-col lg:flex-row">
+        <div className="window-1 w-full lg:w-[33%] mt-5 px-10 flex flex-col">
           <div className="flex flex-col w-full">
             <div className="titleConoceme justify-start w-full">
-              <h2 className="font-inter1 uppercase text-[#FFBC00] text-2xl font-bold">Conóceme</h2>
+              <h2 className="font-inter1 uppercase text-[#FFBC00] text-2xl text-center lg:text-start font-bold">Conóceme</h2>
             </div>
-            <div className="enlaces text-[#082EB7] font-inter1 font-normal flex flex-wrap  flex-row">
+            <div className="enlaces text-[#082EB7] font-inter1 font-normal flex flex-wrap text-center lg:text-start flex-row">
               <div className="w-[50%] py-2 x-1">
                 <a className="cursor-pointer">Conóceme</a>
               </div>
@@ -31,10 +31,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col w-full">
-            <div className="titleConoceme mb-4 justify-start w-full">
-              <h2 className="font-inter1 text-[#FFBC00] uppercase  font-bold text-2xl">Sigueme en:</h2>
+            <div className="titleConoceme mb-4 justify-center lg:justify-start w-full">
+              <h2 className="font-inter1 text-[#FFBC00] uppercase  font-bold text-2xl text-center lg:text-start">Sigueme en:</h2>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center lg:justify-start">
               <div className="w-10 h-10 mx-2 flex">
                 <img src="/img/facebook.png" alt="" className="cursor-pointer hover:bg-gray-500 rounded-full" />
               </div>
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="window-2 w-[33%] flex flex-col">
+        <div className="window-2 w-full lg:w-[33%] mt-5 flex flex-col">
           <div className="flex flex-col w-full">
             <div className="titleConoceme justify-center items-center text-center w-full">
               <h2 className="font-inter1 text-[#FFBC00] uppercase text-2xl text-center font-bold">Metodos de pago</h2>
@@ -71,25 +71,25 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="window-3 px-5 w-[33%] flex flex-col">
+        <div className="window-3 px-5 w-full mt-5 lg:w-[33%] flex flex-col">
           <div className="titleConoceme justify-start items-center text-center w-full">
-            <h2 className="font-inter1 uppercase text-[#FFBC00] text-2xl text-start font-bold">
+            <h2 className="font-inter1 text-center  uppercase text-[#FFBC00] text-2xl lg:text-start font-bold">
               Servicio al cliente
             </h2>
           </div>
           <div className="datosextra text-[#082EB7] flex flex-col">
-            <div className="flex w-full py-2 justify-start">
-              <p className="flex w-full">
+            <div className="flex w-full py-2 text-center lg:text-start lg:justify-start">
+              <p className="flex w-full justify-center items-center">
                 Horario de ateción:
                 <br />
                 De lunes a domingo de 7 AM a 10 PM
               </p>
             </div>
-            <div className="flex w-full py-2 justify-start">
-              <p className="flex w-full">servicioscliente@tiendamass.pe</p>
+            <div className="flex w-full py-2 text-center lg:text-start lg:justify-start">
+              <p className="flex w-full justify-center items-center">servicioscliente@tiendamass.pe</p>
             </div>
-            <div className="flex w-full  py-2 justify-start">
-              <p className="flex w-full">
+            <div className="flex w-full  py-2 text-center lg:text-start lg:justify-start">
+              <p className="flex w-full justify-center items-center">
                 Políticas de cambios y devoluciones
                 <br />
                 Términos y condiciones

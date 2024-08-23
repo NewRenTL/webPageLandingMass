@@ -11,10 +11,10 @@ const Sections = () => {
     ];
   
     return (
-      <div className="w-full flex flex-row px-10 py-5 bg-transparent">
-        <aside className="containBar w-[30%] flex flex-col bg-[#D6F8F4] rounded-lg">
+      <div className="w-full flex flex-col lg:flex-row px-5 lg:px-10 py-5 bg-transparent">
+        <aside className="containBar w-full  lg:w-[30%] flex flex-col bg-[#D6F8F4] rounded-lg">
           <header className="w-full m-1 px-5 py-5 rounded-lg justify-start">
-            <h2 className="text-start  cursor-pointer text-[#082EB7] text-3xl font-inter1 font-bold">
+            <h2 className="text-center lg:text-center cursor-pointer text-[#082EB7] text-2xl lg:text-3xl font-inter1 font-bold">
               CATEGORÍAS
             </h2>
           </header>
@@ -49,7 +49,7 @@ const Sections = () => {
             ))}
           </ul>
         </aside>
-        <div className="imgContain w-[70%] h-auto flex flex-row px-5 rounded-lg">
+        <div className="imgContain w-[100%] my-10 px-0 lg:my-0 lg:w-[70%] h-auto lg:flex flex-row lg:px-5 rounded-lg">
           <img
             src="/img/Trabajadores.png"
             className="flex rounded-lg h-full w-[100%] cover"
